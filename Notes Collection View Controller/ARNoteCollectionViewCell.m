@@ -20,9 +20,9 @@
 //     distribution.
 //
 
-#import "NoteCollectionViewCell.h"
+#import "ARNoteCollectionViewCell.h"
 
-@implementation NoteCollectionViewCell
+@implementation ARNoteCollectionViewCell
 
 - (void)awakeFromNib
 {

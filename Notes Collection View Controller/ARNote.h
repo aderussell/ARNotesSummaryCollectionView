@@ -22,8 +22,8 @@
 
 @import Foundation;
 
-/** This object represents the data for a single note view that will displayed in a NotesSummaryViewController as a NoteCollectionViewCell. It contains two attributes; a title and a a longer contents string. */
-@interface Note : NSObject
+/** This object represents the data for a single note view that will displayed in a ARNotesSummaryViewController as a ARNoteCollectionViewCell. It contains two attributes; a title and a a longer contents string. */
+@interface ARNote : NSObject
 
 /** The title of the note to display. */
 @property NSString *title;

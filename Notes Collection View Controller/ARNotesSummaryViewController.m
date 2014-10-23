@@ -20,16 +20,16 @@
 //     distribution.
 //
 
-#import "NotesSummaryViewController.h"
-#import "NoteCollectionViewCell.h"
-#import "Note.h"
+#import "ARNotesSummaryViewController.h"
+#import "ARNoteCollectionViewCell.h"
+#import "ARNote.h"
 
 
 
-@interface NotesSummaryViewController ()
+@interface ARNotesSummaryViewController ()
 
 /** A note collection cell, like the ones used in the collection view, that is used for checking what size the cell should be when drawn to the collection view. */
-@property NoteCollectionViewCell *sizingCell;
+@property ARNoteCollectionViewCell *sizingCell;
 
 // redefined privately to make them writable.
 @property NSString *cellNibName;
@@ -37,12 +37,12 @@
 
 @end
 
-@implementation NotesSummaryViewController
+@implementation ARNotesSummaryViewController
 
 - (instancetype)init
 {
     // create the notes summary view controller using the default nib.
-    return [self initWithCellNibName:@"NoteCollectionViewCell" bundle:nil];
+    return [self initWithCellNibName:@"ARNoteCollectionViewCell" bundle:nil];
 }
 
 - (instancetype)initWithCellNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -93,10 +93,10 @@
  @param cell      The cell to add the note data to.
  @param indexPath The index path at which the cell will be shown.
  */
-- (void)configureCell:(NoteCollectionViewCell *)cell forIndexPath:(NSIndexPath *)indexPath
+- (void)configureCell:(ARNoteCollectionViewCell *)cell forIndexPath:(NSIndexPath *)indexPath
 {
     // get the note for the indexpath.
-    Note *note = self.notes[indexPath.row];
+    ARNote *note = self.notes[indexPath.row];
     
     // get the note data to the cell.
     cell.titleLabel.text = note.title;
@@ -146,7 +146,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     // get a cell to use
-    NoteCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    ARNoteCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     
     // configure the cell with the data it needs for the index path
     [self configureCell:cell forIndexPath:indexPath];

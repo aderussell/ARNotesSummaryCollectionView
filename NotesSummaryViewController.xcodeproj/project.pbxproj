@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D495684A19F930A900D397AD /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = D495684919F930A900D397AD /* Note.m */; };
+		D495684A19F930A900D397AD /* ARNote.m in Sources */ = {isa = PBXBuildFile; fileRef = D495684919F930A900D397AD /* ARNote.m */; };
 		D4FF485919F8F7EB007119D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF485819F8F7EB007119D5 /* main.m */; };
 		D4FF485C19F8F7EB007119D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF485B19F8F7EB007119D5 /* AppDelegate.m */; };
-		D4FF485F19F8F7EB007119D5 /* NotesSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF485E19F8F7EB007119D5 /* NotesSummaryViewController.m */; };
+		D4FF485F19F8F7EB007119D5 /* ARNotesSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF485E19F8F7EB007119D5 /* ARNotesSummaryViewController.m */; };
 		D4FF486219F8F7EB007119D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FF486019F8F7EB007119D5 /* Main.storyboard */; };
 		D4FF486419F8F7EB007119D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FF486319F8F7EB007119D5 /* Images.xcassets */; };
 		D4FF486719F8F7EB007119D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4FF486519F8F7EB007119D5 /* LaunchScreen.xib */; };
-		D4FF487E19F8F8D2007119D5 /* NoteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF487D19F8F8D2007119D5 /* NoteCollectionViewCell.m */; };
+		D4FF487E19F8F8D2007119D5 /* ARNoteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF487D19F8F8D2007119D5 /* ARNoteCollectionViewCell.m */; };
 		D4FF488319F904A6007119D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF488219F904A6007119D5 /* ViewController.m */; };
-		D4FF488519F90755007119D5 /* NoteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4FF488419F90755007119D5 /* NoteCollectionViewCell.xib */; };
+		D4FF488519F90755007119D5 /* ARNoteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4FF488419F90755007119D5 /* ARNoteCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D495684819F930A900D397AD /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
-		D495684919F930A900D397AD /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		D495684819F930A900D397AD /* ARNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARNote.h; sourceTree = "<group>"; };
+		D495684919F930A900D397AD /* ARNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARNote.m; sourceTree = "<group>"; };
 		D4FF485319F8F7EB007119D5 /* NotesSummaryViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesSummaryViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FF485719F8F7EB007119D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FF485819F8F7EB007119D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4FF485A19F8F7EB007119D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4FF485B19F8F7EB007119D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4FF485D19F8F7EB007119D5 /* NotesSummaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesSummaryViewController.h; sourceTree = "<group>"; };
-		D4FF485E19F8F7EB007119D5 /* NotesSummaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesSummaryViewController.m; sourceTree = "<group>"; };
+		D4FF485D19F8F7EB007119D5 /* ARNotesSummaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNotesSummaryViewController.h; sourceTree = "<group>"; };
+		D4FF485E19F8F7EB007119D5 /* ARNotesSummaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNotesSummaryViewController.m; sourceTree = "<group>"; };
 		D4FF486119F8F7EB007119D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4FF486319F8F7EB007119D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D4FF486619F8F7EB007119D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D4FF487C19F8F8D2007119D5 /* NoteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteCollectionViewCell.h; sourceTree = "<group>"; };
-		D4FF487D19F8F8D2007119D5 /* NoteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteCollectionViewCell.m; sourceTree = "<group>"; };
+		D4FF487C19F8F8D2007119D5 /* ARNoteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARNoteCollectionViewCell.h; sourceTree = "<group>"; };
+		D4FF487D19F8F8D2007119D5 /* ARNoteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARNoteCollectionViewCell.m; sourceTree = "<group>"; };
 		D4FF488119F904A6007119D5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D4FF488219F904A6007119D5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D4FF488419F90755007119D5 /* NoteCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteCollectionViewCell.xib; sourceTree = "<group>"; };
+		D4FF488419F90755007119D5 /* ARNoteCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARNoteCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,13 +53,13 @@
 		D495684719F9309400D397AD /* Notes Collection View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D495684819F930A900D397AD /* Note.h */,
-				D495684919F930A900D397AD /* Note.m */,
-				D4FF487C19F8F8D2007119D5 /* NoteCollectionViewCell.h */,
-				D4FF487D19F8F8D2007119D5 /* NoteCollectionViewCell.m */,
-				D4FF485D19F8F7EB007119D5 /* NotesSummaryViewController.h */,
-				D4FF485E19F8F7EB007119D5 /* NotesSummaryViewController.m */,
-				D4FF488419F90755007119D5 /* NoteCollectionViewCell.xib */,
+				D495684819F930A900D397AD /* ARNote.h */,
+				D495684919F930A900D397AD /* ARNote.m */,
+				D4FF487C19F8F8D2007119D5 /* ARNoteCollectionViewCell.h */,
+				D4FF487D19F8F8D2007119D5 /* ARNoteCollectionViewCell.m */,
+				D4FF485D19F8F7EB007119D5 /* ARNotesSummaryViewController.h */,
+				D4FF485E19F8F7EB007119D5 /* ARNotesSummaryViewController.m */,
+				D4FF488419F90755007119D5 /* ARNoteCollectionViewCell.xib */,
 			);
 			path = "Notes Collection View Controller";
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 			files = (
 				D4FF486219F8F7EB007119D5 /* Main.storyboard in Resources */,
 				D4FF486719F8F7EB007119D5 /* LaunchScreen.xib in Resources */,
-				D4FF488519F90755007119D5 /* NoteCollectionViewCell.xib in Resources */,
+				D4FF488519F90755007119D5 /* ARNoteCollectionViewCell.xib in Resources */,
 				D4FF486419F8F7EB007119D5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,10 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FF487E19F8F8D2007119D5 /* NoteCollectionViewCell.m in Sources */,
-				D4FF485F19F8F7EB007119D5 /* NotesSummaryViewController.m in Sources */,
+				D4FF487E19F8F8D2007119D5 /* ARNoteCollectionViewCell.m in Sources */,
+				D4FF485F19F8F7EB007119D5 /* ARNotesSummaryViewController.m in Sources */,
 				D4FF485C19F8F7EB007119D5 /* AppDelegate.m in Sources */,
-				D495684A19F930A900D397AD /* Note.m in Sources */,
+				D495684A19F930A900D397AD /* ARNote.m in Sources */,
 				D4FF485919F8F7EB007119D5 /* main.m in Sources */,
 				D4FF488319F904A6007119D5 /* ViewController.m in Sources */,
 			);

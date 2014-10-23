@@ -20,8 +20,8 @@
 //     distribution.
 //
 
-#import "Note.h"
+#import "ARNote.h"
 
-@implementation Note
+@implementation ARNote
 
 @end

@@ -22,8 +22,8 @@
 
 @import UIKit;
 
-/** This is a cell that will displayed inside of a NotesSummaryViewController. */
-@interface NoteCollectionViewCell : UICollectionViewCell
+/** This is a cell that will displayed inside of a ARNotesSummaryViewController. */
+@interface ARNoteCollectionViewCell : UICollectionViewCell
 
 /** The label in wihch to display the note title. */
 @property IBOutlet UILabel *titleLabel;

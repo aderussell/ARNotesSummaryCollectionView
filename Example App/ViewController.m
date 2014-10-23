@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "NotesSummaryViewController.h"
-#import "Note.h"
+#import "ARNotesSummaryViewController.h"
+#import "ARNote.h"
 
 @implementation ViewController
 
@@ -17,12 +17,12 @@
     [super viewDidAppear:animated];
     
     // create a new notes summary view controller, calling standard -init will use the default nib.
-    NotesSummaryViewController *vc = [[NotesSummaryViewController alloc] init];
+    ARNotesSummaryViewController *vc = [[ARNotesSummaryViewController alloc] init];
     
     // create some data to stick into the notes.
     NSMutableArray *arr = [NSMutableArray array];
     for (NSUInteger i = 0; i < 59; i++) {
-        Note *note = [Note new];
+        ARNote *note = [ARNote new];
         note.title = @"Title of the note";
         
         NSString *contents = @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";

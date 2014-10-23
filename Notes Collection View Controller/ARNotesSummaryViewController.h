@@ -24,19 +24,19 @@
 
 
 /** The notes view controller is */
-@interface NotesSummaryViewController : UICollectionViewController
+@interface ARNotesSummaryViewController : UICollectionViewController
 
 /** Creates a Notes Summary View Controller using the specified nib as the cell for the collection view.
  @param nibName        The name of the nib that contains the NoteCollectionViewCell to use. This must not be nil.
  @param nibBundleOrNil The bundle that the nib is in.
- @return An instance of `NotesSummaryViewController` that will use the specified nib for the cells of the collection view.
+ @return An instance of `ARNotesSummaryViewController` that will use the specified nib for the cells of the collection view.
  */
 - (instancetype)initWithCellNibName:(NSString *)nibName bundle:(NSBundle *)nibBundleOrNil   NS_DESIGNATED_INITIALIZER;
 
 /** an array of `Note` objects to display in the collection view. */
 @property (nonatomic) NSArray *notes;
 
-/** The name of the nib that contains the cell to display in the collection view. The owner of the nib must be of class `NoteCollectionViewCell`. */
+/** The name of the nib that contains the cell to display in the collection view. The owner of the nib must be of class `ARNoteCollectionViewCell`. */
 @property (nonatomic, readonly) NSString *cellNibName;
 
 /** The bundle that contains the cell nib. */
